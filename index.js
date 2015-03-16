@@ -7,3 +7,5 @@ module.exports = require("./d3");
 
 // Restore old global.
 if ("d3" in globals) global.d3 = globals.d3; else delete global.d3;
+
+// COMMENT by BP.
